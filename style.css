@@ -34,14 +34,23 @@ img {
     border-radius: 28px;
 }
 
-#title p {
-    color: #E1624F;
-    font-weight: 600;
+
+#title {
+    margin-bottom: 40px;
 }
 
 #description p {
     font-style: italic;
     text-align: center;
+    margin: 24px 0px 40px;
+}
+
+#content-list {
+    margin-top: 40px;
+}
+
+#title-list {
+    margin: 64px 0px;
 }
 
 .headline {
