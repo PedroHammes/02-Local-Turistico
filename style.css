@@ -2,6 +2,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+p {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+#container {
+    width: 1120px;
+    margin: auto;
 }
 
 main {
@@ -10,4 +32,19 @@ main {
 
 img {
     border-radius: 28px;
+}
+
+#title p {
+    color: #E1624F;
+    font-weight: 600;
+}
+
+#description p {
+    font-style: italic;
+    text-align: center;
+}
+
+.headline {
+    color: #E1624F;
+    font-weight: 600;
 }
