@@ -23,7 +23,7 @@ h3 {
 
 #container {
     width: 1120px;
-    margin: auto;
+    margin: 40px auto;
 }
 
 main {
@@ -45,15 +45,61 @@ img {
     margin: 24px 0px 40px;
 }
 
-#content-list {
-    margin-top: 40px;
-}
-
 #title-list {
     margin: 64px 0px;
+}
+
+#title {
+    margin-bottom: 8px;
 }
 
 .headline {
     color: #E1624F;
     font-weight: 600;
+}
+
+.card-travel + .card-travel {
+    margin-top: 48px;
+}
+
+.card-travel img {
+    margin-bottom: 20px;
+}
+
+.card-travel span {
+    font-weight: bold;
+}
+
+.card-travel ul {
+    margin-left: 24px;
+    font-weight: bold;
+}
+
+.li-blue {
+    color: #0C51A7;
+}
+.li-purple {
+    color: #591B98;
+}
+.li-pink {
+    color: #E5245E;
+}
+.li-orange {
+    color: #E95E10;
+}
+
+hr {
+    margin: 40px 0px;
+}
+
+#container > p {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+footer img {
+    vertical-align: middle;
 }
